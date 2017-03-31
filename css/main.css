@@ -21,6 +21,9 @@ html {
 /*///////////////////////////////////*/
 /*///// CUSTOM STYLES (DESKTOP) /////*/
 /*///////////////////////////////////*/
+body {
+    background-color: lightblue;
+}
 .container {
     width: 100%;
     max-width: 120rem;
@@ -30,17 +33,29 @@ html {
 }
 
 
+
+
 /*///////////////////////////////////*/
 /*////////// TABLET STYLES //////////*/
 /*///////////////////////////////////*/
 @media only screen and (max-width: 768px) {
-    
+    body {
+        background-color: lightcoral;
+    }
 }
-
 
 /*///////////////////////////////////*/
 /*////////// MOBILE STYLES //////////*/
 /*///////////////////////////////////*/
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/*////// CLEARFIX //////*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
