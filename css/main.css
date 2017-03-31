@@ -7,15 +7,11 @@
     box-sizing: border-box;
 }
 /*/// FONTS ///*/
-@font-face {
-    
-}
-@font-face {
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 /*--- HTML BASE ---*/
 html {
     font-size: 62.5%;/* <-- Font Size = 10px = 1rem */
+    font-family: "Lato", sans-serif;
 }
 
 /*///////////////////////////////////*/
@@ -24,13 +20,73 @@ html {
 body {
     background-color: lightblue;
 }
+/* CONTAINER */
 .container {
     width: 100%;
     max-width: 120rem;
     min-height: 50rem;
-    background-color: yellow;
+    background-color: lightgray;
     margin: 0 auto;
 }
+#mobile-nav-links {
+    display: none;
+}
+/* TOP NAVIGATION */
+#top-nav {
+    width: 100%;
+    background-color: #fff;
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#top-identity {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* LOGO */
+#logo {
+    display: inline-block;
+    height: 5rem;
+}
+#logo img {
+    display: block;
+    height: 100%;
+    width: auto;
+    margin-left: 2.4rem;
+}
+/* SITE TITLE */
+#site-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#site-title span {
+    color: #adadad; /* <-- USE THIS GREY */
+    font-weight: 400;
+}
+/* DESKTOP NAVIGATION LINKS */
+#destop-nav-links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#desktop-nav-links span {
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+}
+#desktop-nav-links span:last-child {
+    margin-right: 2.4rem;
+}
+
+
+
+
+
+
+
+
 
 
 
