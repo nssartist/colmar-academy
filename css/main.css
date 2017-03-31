@@ -1,0 +1,46 @@
+/*/// UNIVERSAL STYLES ///*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*/// FONTS ///*/
+@font-face {
+    
+}
+@font-face {
+    
+}
+/*--- HTML BASE ---*/
+html {
+    font-size: 62.5%;/* <-- Font Size = 10px = 1rem */
+}
+
+/*///////////////////////////////////*/
+/*///// CUSTOM STYLES (DESKTOP) /////*/
+/*///////////////////////////////////*/
+.container {
+    width: 100%;
+    max-width: 120rem;
+    min-height: 50rem;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+
+/*///////////////////////////////////*/
+/*////////// TABLET STYLES //////////*/
+/*///////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+    
+}
+
+
+/*///////////////////////////////////*/
+/*////////// MOBILE STYLES //////////*/
+/*///////////////////////////////////*/
+@media only screen and (max-width: 768px) {
+    
+}
