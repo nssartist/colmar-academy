@@ -455,6 +455,16 @@ footer {
     body {
         background-color: lightgreen;
     }
+    /* TOP NAVIGATION */
+    #desktop-nav-links,
+    #site-title {
+        display: none;
+    }
+    #mobile-nav-links {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
 }
 
 /*////// CLEARFIX //////*/
