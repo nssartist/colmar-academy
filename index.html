@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, intial-scale=1">
         <title>Colmar Academy</title>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        
     </head>
     <body>
         <!-- MAIN CONTAINER -->
@@ -29,10 +31,15 @@
                 </div>
                 <!-- MOBILE NAVIGATION LINKS -->
                 <div id="mobile-nav-links">
-                    <span>Our Campus</span>
-                    <span>Online</span>
-                    <span>For Companies</span>
-                    <span>Sign In</span>
+                    <span>
+                        <i class="fa fa-university fa-3x"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-desktop fa-3x"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-user fa-3x"></i>
+                    </span>
                 </div>
             </nav>
             
@@ -75,13 +82,13 @@
                 <!-- RIGHT SIDE -->
                 <div id="middle-right-box">
                     <!-- ASIDE ARTICLES BOX -->
-                    <!--<div class="aside-box">-->
                         
                         <!-- SUB-ARTICLE 1 -->
                         <div class=sub-article>
                             <!-- IMG -->
                             <div class="aside-img">
-                                <img src="images/information-orientation.jpg">
+                                <img class="desktop-img" src="images/information-orientation.jpg">
+                                <img class="mobile-img" src="images/information-orientation-mobile.jpg">
                             </div>
                             <!-- TEXT -->
                             <div class="aside-text">
@@ -97,7 +104,8 @@
                         <div class=sub-article>
                             <!-- IMG -->
                             <div class="aside-img">
-                                <img src="images/information-campus.jpg">
+                                <img class="desktop-img" src="images/information-campus.jpg">
+                                <img class="mobile-img" src="images/information-campus-mobile.jpg">
                             </div>
                             <!-- TEXT -->
                             <div class="aside-text">
@@ -113,18 +121,18 @@
                         <div class=sub-article>
                             <!-- IMG -->
                             <div class="aside-img">
-                                <img src="images/information-guest-lecture.jpg">
+                                <img class="desktop-img" src="images/information-guest-lecture.jpg">
+                                <img class="mobile-img" src="images/information-guest-lecture-mobile.jpg">
                             </div>
                             <!-- TEXT -->
                             <div class="aside-text">
                                 <h3>Our guest lecture</h3>
                                 <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                                 <span class="read-more-btn">
-                                    <a href="#">Read more</a>
+                                    <a href="#" id="lecture-btn">Read more</a>
                                 </span>
                             </div>
                         </div>
-                    <!--</div>-->
                 </div>
                 
             </section>
@@ -226,7 +234,7 @@
             <!-- THESIS SECTION -->
             <section id="thesis-section">
                 
-                <h2>Thesis Exhibit</h2>
+                <h2>Thesis Exhibits</h2>
                 
                 <div id="thesis-content">
                     <!-- LEFT SECTION -->
