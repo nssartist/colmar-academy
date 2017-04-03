@@ -4,33 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, intial-scale=1">
         <title>Colmar Academy</title>
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- FONT AWESOME -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <!-- RESET -->
         <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <!-- CUSTOM STYLES -->
         <link rel="stylesheet" type="text/css" href="css/main.css">
         
     </head>
     <body>
         <!-- MAIN CONTAINER -->
-        <main class="container">
+        <main class="container" role="main">
             <!-- TOP NAVIGATION -->
-            <nav id="top-nav">
-                <div id="top-identity">
+            <nav id="top-nav" role="heading">
+                <div id="top-identity" role="presentation">
                     <!-- LOGO HERE -->
-                    <div id="logo">
-                        <img src="images/ic-logo.svg">
+                    <div id="logo" role="presentation">
+                        <img src="images/ic-logo.svg" alt="colmar logo">
                     </div>
                     <!-- SITE TITLE -->
                     <div id="site-title">Colmar<span>Academy</span></div>
                 </div>
                 <!-- DESKTOP NAVIGATION LINKS -->
-                <div id="desktop-nav-links">
+                <div id="desktop-nav-links" role="presentation">
                     <span>On Campus</span>
                     <span>Online</span>
                     <span>For Companies</span>
                     <span>Sign In</span>
                 </div>
                 <!-- MOBILE NAVIGATION LINKS -->
-                <div id="mobile-nav-links">
+                <div id="mobile-nav-links" role="navigation">
                     <span>
                         <i class="fa fa-university fa-3x"></i>
                     </span>
@@ -45,12 +51,12 @@
             
             <!-- MAIN/HERO SECTION -->
             <section id="billboard-box">
-                <div id="main-img">
+                <div id="main-img" role="presentation">
                     <!-- MAIN IMAGE -->
-                    <img src="images/banner.jpg">
+                    <img src="images/banner.jpg" alt="friends studying at a wooden table">
                 </div>
                 <!-- MAIN ARTICLE -->
-                <div id="main-article-box">
+                <div id="main-article-box" role="presentation">
                     <h1>
                         Learn something 
                         <br />new everyday
@@ -59,7 +65,7 @@
                         Lorem ipsum dolor sit amet, 
                         <br>consectetur adipiscing elit.
                     </p>
-                    <div id="start-btn">
+                    <div id="start-btn" role="presentation">
                         <a href="#">Start here</a>
                     </div>
                 </div>
@@ -68,72 +74,72 @@
             <!-- MIDDLE SECTION -->
             <section id="middle-section">
                 <!-- LEFT SIDE -->
-                <div id="middle-left-box">
-                    <div id="secondary-article-img" class="clearfix">
-                        <img src="images/information-main.jpg">
+                <section id="middle-left-box">
+                    <div id="secondary-article-img" class="clearfix" role="presentation">
+                        <img src="images/information-main.jpg" alt="a young man reading a book in the park">
                     </div>
                     <h2>It doesn't hurt to keep practicing</h2>
                     <p id="quote">
                         "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                     </p>
                     <p id="quote-person">Emanuel, Sr Strategist at Hiring.com</p>
-                </div>
+                </section>
                 
                 <!-- RIGHT SIDE -->
-                <div id="middle-right-box">
+                <section id="middle-right-box">
                     <!-- ASIDE ARTICLES BOX -->
                         
                         <!-- SUB-ARTICLE 1 -->
-                        <div class=sub-article>
+                        <section class=sub-article>
                             <!-- IMG -->
-                            <div class="aside-img">
-                                <img class="desktop-img" src="images/information-orientation.jpg">
-                                <img class="mobile-img" src="images/information-orientation-mobile.jpg">
+                            <div class="aside-img" role="presentation">
+                                <img class="desktop-img" src="images/information-orientation.jpg" alt="people walking on a campus sidewalk">
+                                <img class="mobile-img" src="images/information-orientation-mobile.jpg" alt="people walking on a campus sidewalk">
                             </div>
                             <!-- TEXT -->
-                            <div class="aside-text">
+                            <div class="aside-text" role="presentation">
                                 <h3>Orientation date</h3>
                                 <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
                                 <span class="read-more-btn">
                                     <a href="#">Read more</a>
                                 </span>
                             </div>
-                        </div>
+                        </section>
                         
                         <!-- SUB-ARTICLE 2 -->
-                        <div class=sub-article>
+                        <section class=sub-article>
                             <!-- IMG -->
                             <div class="aside-img">
-                                <img class="desktop-img" src="images/information-campus.jpg">
-                                <img class="mobile-img" src="images/information-campus-mobile.jpg">
+                                <img class="desktop-img" src="images/information-campus.jpg" alt="a wooden classroom interior">
+                                <img class="mobile-img" src="images/information-campus-mobile.jpg" alt="a wooden classroom interior">
                             </div>
                             <!-- TEXT -->
-                            <div class="aside-text">
+                            <div class="aside-text" role="presentation">
                                 <h3>Our campus</h3>
                                 <p>Find out which campus is close by you</p>
                                 <span class="read-more-btn">
                                     <a href="#">Read more</a>
                                 </span>
                             </div>
-                        </div>
+                        </section>
                         
                         <!-- SUB-ARTICLE 3 -->
-                        <div class=sub-article>
+                        <section class=sub-article>
                             <!-- IMG -->
                             <div class="aside-img">
-                                <img class="desktop-img" src="images/information-guest-lecture.jpg">
-                                <img class="mobile-img" src="images/information-guest-lecture-mobile.jpg">
+                                <img class="desktop-img" src="images/information-guest-lecture.jpg" alt="a portrait of Oliver Slack">
+                                <img class="mobile-img" src="images/information-guest-lecture-mobile.jpg" alt="a portrait of Oliver Slack">
                             </div>
                             <!-- TEXT -->
-                            <div class="aside-text">
+                            <div class="aside-text" role="presentation">
                                 <h3>Our guest lecture</h3>
                                 <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                                 <span class="read-more-btn">
                                     <a href="#" id="lecture-btn">Read more</a>
                                 </span>
                             </div>
-                        </div>
-                </div>
+                        </section>
+                </section>
                 
             </section>
             
@@ -142,91 +148,91 @@
                 <!-- LEARNING TITLE -->
                 <h2>Start learning</h2>
                 <!-- GALLERY -->
-                <div id="gallery-box">
+                <div id="gallery-box" role="presentation">
                     
                     <!-- SINGLE GALLERY ITEM 1 -->
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="images/course-software.jpg">
+                    <section class="gallery-item">
+                        <div class="gallery-img" role="presentation">
+                            <img src="images/course-software.jpg" alt="a desktop dual mointor setup">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Software engineering</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 Web Development, Mobile <br/>Development, iOT, APIs
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                     <!-- SINGLE GALLERY ITEM 2 -->
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="images/course-computer-art.jpg">
+                    <section class="gallery-item">
+                        <div class="gallery-img" role="presentation">
+                            <img src="images/course-computer-art.jpg" alt="a hand holding a mobile phone">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Computer Art</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                     <!-- SINGLE GALLERY ITEM 3 -->
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="images/course-design.jpg">
+                    <section class="gallery-item">
+                        <div class="gallery-img" role="presentation">
+                            <img src="images/course-design.jpg" alt="a man using an old-fashioned camera">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Design</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 User Experience Design, User Research, <br/>Visual Design
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                     <!-- SINGLE GALLERY ITEM 4 -->
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="images/course-data.jpg">
+                    <section class="gallery-item">
+                        <div class="gallery-img" role="presentation">
+                            <img src="images/course-data.jpg" alt="an open laptop showing website analytics">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Data</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 Data Science, Big Data, SQL, Data Visualization
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                     <!-- SINGLE GALLERY ITEM 5 -->
-                    <div class="gallery-item">
+                    <section class="gallery-item" role="presentation">
                         <div class="gallery-img">
-                            <img src="images/course-business.jpg">
+                            <img src="images/course-business.jpg" alt="a chess set">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Business</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 Product Development, Business Development, Startup
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                     <!-- SINGLE GALLERY ITEM 6 -->
-                    <div class="gallery-item">
-                        <div class="gallery-img">
-                            <img src="images/course-marketing.jpg">
+                    <section class="gallery-item">
+                        <div class="gallery-img" role="presentation">
+                            <img src="images/course-marketing.jpg" alt="a woman checking her smart watch">
                         </div>
-                        <div class="gallery-text">
+                        <div class="gallery-text" role="presentation">
                             <h3>Software engineering</h3>
                             <p class="courses-keyword">COURSES</p>
                             <p class="course-description">
                                 Analytics, Content Marketing, <br/>Mobile Marketing
                             </p>
                         </div>
-                    </div>
+                    </section>
                     
                 </div>
             </section>
@@ -236,65 +242,65 @@
                 
                 <h2>Thesis Exhibits</h2>
                 
-                <div id="thesis-content">
+                <div id="thesis-content" role="presentation">
                     <!-- LEFT SECTION -->
-                    <div id="thesis-left">
+                    <section id="thesis-left">
                         <div id="vid">
                             <!-- VIDEO GOES HERE -->
                             <video src="videos/thesis.mp4" controls></video>
                         </div>
-                        <div id="thesis-left-text">
+                        <div id="thesis-left-text" role="presentation">
                             <h3>Reimagine urban</h3>
                             <p id="video-p-quote">
                                 "Curabar vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
                             </p>
                         </div>
-                    </div>
+                    </section>
 
                     <!-- RIGHT SECTION -->
-                    <div id="thesis-right">
+                    <section id="thesis-right">
 
                         <!-- SUB-ARTICLE 1 -->
-                        <div class="thesis-sub-article">
+                        <section class="thesis-sub-article">
                             <!-- IMAGE -->
-                            <div class="thesis-sub-img">
-                                <img src="images/thesis-fisma.jpg">
+                            <div class="thesis-sub-img" role="presentation">
+                                <img src="images/thesis-fisma.jpg" alt="a top down view of design sketches">
                             </div>
-                            <div class="thesis-sub-text">
+                            <div class="thesis-sub-text" role="presentation">
                                 <h3>Fisma: Design and</h3>
                                 <p>
                                     Designer showcase of new <br/>prototype products
                                 </p>
                             </div>
-                        </div>
+                        </section>
 
                         <!-- SUB-ARTICLE 2 -->
-                        <div class="thesis-sub-article">
+                        <section class="thesis-sub-article">
                             <!-- IMAGE -->
-                            <div class="thesis-sub-img">
-                                <img src="images/thesis-now-and-then.jpg">
+                            <div class="thesis-sub-img" role="presentation">
+                                <img src="images/thesis-now-and-then.jpg" alt="a photo of the New York skyline">
                             </div>
-                            <div class="thesis-sub-text">
+                            <div class="thesis-sub-text" role="presentation">
                                 <h3>Now and then</h3>
                                 <p>
                                     Research study about New York
                                 </p>
                             </div>
-                        </div>
+                        </section>
 
-                    </div>
+                    </section>
                 </div>
             </section>
             
             <!-- FOOTER -->
             <footer>
                 <!-- LEFT -->
-                <div id="footer-left">
+                <div id="footer-left" role="presentation">
                     <p>&copy; 2016 Colmar Academy. All rights reserved</p>
                 </div>
                 
                 <!-- RIGHT -->
-                <div id="footer-right">
+                <div id="footer-right" role="navigation">
                     <span><a href="#">Terms</a></span>
                     <span><a href="#">Privacy</a></span>
                 </div>

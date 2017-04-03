@@ -18,14 +18,13 @@ html {
 /*///// CUSTOM STYLES (DESKTOP) /////*/
 /*///////////////////////////////////*/
 body {
-    /*background-color: lightblue;*/
+    
 }
 /* CONTAINER */
 .container {
     width: 100%;
     max-width: 114rem;
     min-height: 50rem;
-    /*background-color: lightgray;*/
     margin: 0 auto;
 }
 #mobile-nav-links {
@@ -423,7 +422,6 @@ footer {
     justify-content: space-between;
     background-color: #fff;
     height: 7rem;
-    /*#d4d4d4*/
 }
 #footer-left {
     font-size: 1.2rem;
@@ -465,9 +463,6 @@ footer {
     }
     #top-nav {
         justify-content: space-around;
-    }
-    #logo {
-        /*background-color: yellow;*/
     }
     #mobile-nav-links {
         height: 100%;
