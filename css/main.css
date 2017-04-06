@@ -562,7 +562,7 @@ footer {
     /* GALLERY */
     .gallery-item {
         width: 100%;
-        max-height: 7rem;
+        max-height: 8.75rem;
         margin: .4rem 1.6rem;
     }
     /* TEXT */
@@ -576,6 +576,9 @@ footer {
     }
     .gallery-text {
         background-color: #d8d8d8;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
     }
     .courses-keyword,
     .course-description {
